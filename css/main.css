@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+html, body
+{
+	background-color: #1b1d1d;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+header, nav
+{
+	margin: 1em auto;
+	padding: 1em 3em;
+}
+
+img
+{
+	border-radius: 2.5%;
+}
+
+main, span
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: 	wrap;
+	margin: 3em auto;
+	padding: 3em;
+	text-align: center;
+}
+
+main img
+{
+	width: 80%;
+}
+
+main, span, header
+{
+	width: 60em;
+	background-color: #212425;
+}
+
+div
+{
+width: 30%;
+}
+
+header img
+{
+	width: 80%;
+	height: auto;
+}
+
+header img, header h2
+{
+	-webkit-filter: drop-shadow(3px 3px 3px rgba(255, 0, 0, 0.5));
+     filter: drop-shadow(3px 3px 3px rgba(255, 0, 0, 0.5));
+}
+a
+{
+	height: 3em;
+	width: auto;
+	text-align: center;
+}
+
+a
+{
+	display:block; 
+	text-align: center; 
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+nav
+{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+span
+{
+	width: 60em;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a, nav a:visited
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+}
