@@ -85,8 +85,9 @@ span
 {
 	width: 60em;
 	color: white;
-	display: flex;
+	display: block;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 nav a, nav a:visited
