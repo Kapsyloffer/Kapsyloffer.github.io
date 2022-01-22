@@ -16,7 +16,7 @@ img
 	border-radius: 2.5%;
 }
 
-main, span
+main, div.bottom
 {
 	display: flex;
 	justify-content: space-around;
@@ -31,7 +31,7 @@ main img
 	width: 80%;
 }
 
-main, span, header
+main, header, div.bottom
 {
 	width: 60em;
 	background-color: #212425;
@@ -52,6 +52,11 @@ header img, header h2
 {
 	-webkit-filter: drop-shadow(3px 3px 3px rgba(255, 0, 0, 0.5));
      filter: drop-shadow(3px 3px 3px rgba(255, 0, 0, 0.5));
+}
+
+header h2
+{
+	font-size: 2EM;
 }
 a
 {
@@ -81,7 +86,7 @@ nav
 	justify-content: space-around;
 }
 
-span
+div.bottom
 {
 	width: 60em;
 	color: white;
